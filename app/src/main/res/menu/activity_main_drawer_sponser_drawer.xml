@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sponser"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Sponser A Shinning Star" />
+        <item
+            android:id="@+id/nav_editevent"
+            android:icon="@drawable/ic_create_black_24dp"
+            android:title="Edit Tournament" />
+        <item
+            android:id="@+id/nav_all_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="All Tournaments" />
+        <item
+            android:id="@+id/nav_sponser_edit"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Edit Profile Picture" />
+        <item
+            android:id="@+id/Book_a_stadium"
+            android:icon="@drawable/stadium_24dp"
+            android:title="Punjab Sports Stadium" />
+    </group>
+
+    <item android:title="Share and Rate">
+        <menu>
+            <item
+                android:id="@+id/nav_share_sponser"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nave_rate_sponser"
+                android:icon="@drawable/ic_favorite_black_24dp"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_exit_sponser"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Exit App" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerReg"
+    android:background="@drawable/reg"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="90dp"
+                android:id="@+id/name_edit_event_change"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/white"
+                android:background="@drawable/rectbuttonorange"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Event Details"
+
+                />
+
+            <EditText
+                android:layout_marginTop="20dp"
+
+                android:id="@+id/name_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Name"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"/>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_sports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Sports"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_directions_bike_black_24dp"
+                android:inputType="textPersonName"
+                android:text="" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Date"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_event_black_24dp"
+                android:inputType="textPersonName"
+                android:text="" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Time"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_access_time_black_24dp"
+                android:inputType="textPersonName"
+                android:text="" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Permanent Address"/>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="State"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPersonName"
+                android:text="" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="City"
+                android:drawableLeft="@drawable/ic_location_city_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPersonName"
+                android:text="" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Street"
+                android:drawableLeft="@drawable/ic_more_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textMultiLine"
+                android:text="" />
+
+
+
+
+
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_fee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Payable Fee"
+                android:drawableLeft="@drawable/ic_monetization_on_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="text"
+                android:text="" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ist  Prize"
+                android:drawableLeft="@drawable/ic_grade_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textMultiLine"
+                android:text="" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ist  Runner Up"
+                android:drawableLeft="@drawable/ic_grade_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textMultiLine"
+                android:text="" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Second  Runner Up"
+                android:drawableLeft="@drawable/ic_grade_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textMultiLine"
+                android:text="" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Notes"
+                android:drawableLeft="@drawable/ic_grade_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textMultiLine"
+                android:text="" />
+
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/add_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Event"
+                android:textColor="@android:color/white"
+                android:background="@drawable/rectbuttongreen"
+                android:layout_marginBottom="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

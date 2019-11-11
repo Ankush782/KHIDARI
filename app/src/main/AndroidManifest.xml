@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dsss.ankush.khidari">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".PlayerReg" />
+        <activity android:name=".SponserReg" />
+        <activity android:name=".PlayerMainScrenn" />
+        <activity android:name=".SponserMainScreen" />
+        <activity
+            android:name=".MainActivity_Player_Navigation"
+            android:label="@string/title_activity_main__player__navigation"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivity_Sponser_Navigation"
+            android:label="@string/title_activity_main__sponser__navigation" />
+        <activity
+            android:name=".MainActivityDrawerSponser"
+            android:label="@string/title_activity_main_drawer_sponser"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AddEventActivity" />
+        <activity android:name=".Sponser_All_Events" />
+        <activity android:name=".Sponser_Edit_Activity" />
+        <activity android:name=".Edit_Event" />
+        <activity android:name=".Show_Event_Activity" />
+        <activity android:name=".MakePaymentActivity" />
+        <activity android:name=".PlayerRegistrationFormActivity" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+        <activity android:name=".CoachesActivity" />
+        <activity android:name=".Stadium_Activity" />
+        <activity android:name=".CancelTournamentActivity"></activity>
+    </application>
+
+</manifest>

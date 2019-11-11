@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Show_Event_Activity"
+    android:orientation="horizontal"
+    android:padding="5dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/event_image"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Author name"
+                android:id="@+id/event_author_show"
+                android:padding="5dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/orange"></View>
+ <LinearLayout
+     android:layout_marginTop="10dp"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="horizontal"
+     android:padding="20dp"
+     android:weightSum="2">
+     <TextView
+         android:layout_gravity="right"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="  Event Name : "
+         android:textStyle="bold"
+         android:layout_weight="1"
+         android:gravity="left"
+         android:drawableLeft="@drawable/ic_event_black_24dp"
+         android:drawablePadding="10dp"/>
+     <TextView
+         android:layout_gravity="right"
+         android:textStyle="bold"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="  Event Name : "
+         android:layout_weight="1"
+         android:gravity="left"
+         android:id="@+id/event_name_show"
+         />
+
+ </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/orange"></View>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Event Sport : "
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:drawableLeft="@drawable/ic_directions_bike_black_24dp"
+                    android:drawablePadding="10dp"/>
+                <TextView
+                    android:layout_gravity="right"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Event Name : "
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:id="@+id/event_Sport_show"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/orange"></View>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Event Schedule : "
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:drawableLeft="@drawable/ic_access_time_black_24dp"
+                    android:drawablePadding="10dp"/>
+                <TextView
+                    android:layout_gravity="right"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Event Name : "
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:id="@+id/event_time_show"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/orange"></View>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Event Venue : "
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:drawableLeft="@drawable/ic_location_city_black_24dp"
+                    android:drawablePadding="10dp"/>
+                <TextView
+                    android:layout_gravity="right"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Event Name : "
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:id="@+id/event_venue_show"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/orange"></View>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Event Application Fee : "
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:drawableLeft="@drawable/ic_monetization_on_black_24dp"
+                    android:drawablePadding="10dp"/>
+                <TextView
+                    android:layout_gravity="right"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Event Name : "
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:id="@+id/event_fee_show"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/orange"></View>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Event Prizes : "
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:drawableLeft="@drawable/ic_grade_black_24dp"
+                    android:drawablePadding="10dp"/>
+                <TextView
+                    android:layout_gravity="right"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Event Name : "
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:id="@+id/event_prize_show"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/orange"></View>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Key Notes : "
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:drawableLeft="@drawable/ic_assignment_turned_in_black_24dp"
+                    android:drawablePadding="10dp"/>
+                <TextView
+                    android:layout_gravity="right"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Event Name : "
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:id="@+id/event__special_notes"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/orange"></View>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:weightSum="2">
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/event_apply_show"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Apply"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/rectbuttongreen"
+                    android:layout_marginBottom="30dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

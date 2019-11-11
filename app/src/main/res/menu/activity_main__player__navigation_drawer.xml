@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Upcoming  Tournaments" />
+        <item
+            android:id="@+id/trials"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Upcoming  Trials" />
+        <item
+            android:id="@+id/coachingcenter"
+            android:icon="@drawable/stadium_24dp"
+            android:title="Coaching Centers" />
+        <item
+            android:id="@+id/nav_various_coaches"
+            android:icon="@drawable/coaches"
+            android:title="Coach List" />
+        <item
+            android:id="@+id/sports_stadium_of_punjab"
+            android:icon="@drawable/stadium_24dp"
+            android:title="Stadiums" />
+        <item
+
+            android:icon="@drawable/coaches"
+            android:title="Apply for Awards" />
+
+
+        <item
+            android:id="@+id/nav_apply_dponsership"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Apply Sponserships" />
+
+
+       <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Change Profile Picture" />
+    </group>
+
+    <item android:title="Share and Rate">
+        <menu>
+            <item
+                android:id="@+id/nav_share_player"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate_player"
+                android:icon="@drawable/ic_favorite_black_24dp"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_exit_player"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Exit App" />
+
+        </menu>
+    </item>
+
+</menu>

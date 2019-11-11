@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerReg"
+    android:background="@drawable/reg"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp">
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="90dp"
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/white"
+                android:background="@drawable/rectbuttonorange"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Application Form"
+
+                />
+
+            <EditText
+                android:layout_marginTop="20dp"
+
+                android:id="@+id/applicant_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Full Name"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"/>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/applicant_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Age"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_assignment_turned_in_black_24dp"
+                android:inputType="number"
+                android:text="" />
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/applicant_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Mobile"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="phone" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/applicant_phone_h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Mobile Home"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="phone" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/applicant_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Permanent Address"/>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_state_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="State"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPersonName"
+                android:text="" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_city_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="City"
+                android:drawableLeft="@drawable/ic_location_city_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPersonName"
+                android:text="" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/event_address_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Street"
+                android:drawableLeft="@drawable/ic_more_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textMultiLine"
+                android:text="" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Game Skill Level"/>
+
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/level"
+                android:background="@android:color/transparent"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="20dp"
+
+
+                ></Spinner>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Would you like to be a volunteer in free time?"/>
+
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/volunteer"
+                android:background="@android:color/transparent"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="20dp"
+
+
+
+                ></Spinner>
+
+
+
+
+
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/registerpp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textColor="@android:color/white"
+                android:background="@drawable/rectbuttongreen"
+                android:layout_marginBottom="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
